@@ -1,0 +1,30 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #0066cc;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 48px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+img, embed, object, video {
+	max-width: 100%;
+}
+
+nav a, button {
+	width: 48px;
+	height: 48px;
+}
