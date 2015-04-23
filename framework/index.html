@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- sets language to english -->
+<html lang="en">
+  <head>
+    <!-- sets character set -->
+    <meta charset="utf-8"> 
+    <!-- tell Internet Explorer the newest engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- set the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Alex Khajehtoorian's Portfolio</title>
+    <!-- load Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'> 
+    <!-- styles get loaded in order -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- load jquery and bootstrap javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-responsive title-logo" src="imgs/logo.png"  alt="logo">
+          </div>
+          <div class="col-md-6 text-right text-uppercase">
+            <h1 class="text-thin title-super">Alex Khajehtoorian</h1>
+            <h3>Soon-to-be Front-End Ninja</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <img class="img-responsive" src="imgs/hero.png" alt="hero image">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="text-muted">Featured Work</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img class="img-responsive" src="imgs/navasartian.png" alt="2015 Navasartian Games Website" data-toggle="modal" data-target="#navasartian">
+            <h3 class="text-uppercase">Navasartian</h3>
+            <a href="http://www.homenetmen.com/navasartian">Link to project</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <img class="img-responsive" src="imgs/watermelon.png" alt="Watermelon" data-toggle="modal" data-target="#watermelon">
+            <h3 class="text-uppercase">Watermelon</h3>
+            <a href="watermelon.html">Link to project</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <img class="img-responsive" src="imgs/work.png" alt="github" data-toggle="modal" data-target="#repo">
+            <h3 class="text-uppercase">My Future Work</h3>
+            <a href="https://github.com/khaji">Link to project</a>
+          </div>
+        </div>
+      </div> <!-- end container -->
+      <!-- Modal -->
+      <div class="modal fade" id="navasartian" tabindex="-1" role="dialog" aria-labelledby="navasartianModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="navasartianModal">2015 Navasartian</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="imgs/navasartian.png"  alt="2015 Navasartian Games Website">
+              This was my first project I created from what I've learned from this class. I tried to stress a mobile-first design and it proved to be successful since more than 50% of my visitors are mobile users!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="watermelon" tabindex="-1" role="dialog" aria-labelledby="watermelonModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="watermelonModal">Watermelon</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="imgs/watermelon.png"  alt="watermelon">
+              My attempt at learning about the grid system in a fun way - creating a watermelon...but it didn't work as planned! The black blocks are supposed to be seeds.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="repo" tabindex="-1" role="dialog" aria-labelledby="repoModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="repoModal">My Repo</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="imgs/work.png"  alt="repo">
+              This is where my future work will be published - on github!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
